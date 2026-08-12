@@ -147,6 +147,7 @@ export default function Home() {
             >
               {simulationActive ? "Retirar simulação" : "Ativar simulação"}
             </button>
+            <a className="flashcards-hero-link" href="#flashcards">Estudar com flashcards</a>
             <span>Representação educativa — não é um diagnóstico.</span>
           </div>
         </div>
@@ -192,8 +193,8 @@ export default function Home() {
         <div className="section-intro" data-reveal>
           <div>
             <span className="section-label">Parte principal</span>
-            <h2>Flashcards</h2>
-            <p>Clique em cada card para virar. As respostas formam um resumo completo do tema.</p>
+            <h2>9 flashcards interativos</h2>
+            <p>Clique em cada card para revelar a resposta. O contador registra o que você já revisou.</p>
           </div>
           <div className="study-progress" aria-live="polite">
             <div className="progress-text">

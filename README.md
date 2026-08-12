@@ -1,6 +1,6 @@
 # Degeneração Macular
 
-Site educativo e interativo sobre degeneração macular, Física e Tecnociência, Robótica e Programação.
+Site educativo e interativo sobre degeneração macular, Física e Tecnociência, Robótica e Programação. Inclui 9 flashcards com perguntas, respostas, contador de revisão e botão para recomeçar.
 
 ## Publicação no GitHub Pages
 
