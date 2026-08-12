@@ -1,31 +1,26 @@
 # Degeneração Macular
 
-Site educativo e interativo preparado para o GitHub Pages.
+Site educativo e interativo sobre degeneração macular, Física e Tecnociência, Robótica e Programação.
 
-## Como publicar
+## Publicação no GitHub Pages
 
-1. Extraia o ZIP.
-2. Envie **todos os arquivos e pastas que estão dentro dele** para a raiz do seu repositório no GitHub. A pasta `.github` também precisa ser enviada.
-3. No repositório, abra **Settings → Pages**.
-4. Em **Build and deployment → Source**, selecione **GitHub Actions**.
-5. Abra a aba **Actions** e aguarde a tarefa “Publicar no GitHub Pages” terminar.
+Este projeto já contém o site pronto na raiz. Não é necessário instalar nada nem executar comandos.
 
-Depois disso, o endereço do site aparecerá em **Settings → Pages**.
+1. Extraia o ZIP no computador.
+2. Na raiz do repositório do GitHub, remova os arquivos da versão anterior.
+3. Envie **o conteúdo de dentro da pasta extraída**. O arquivo `index.html` e a pasta `assets` devem aparecer diretamente na página inicial do repositório.
+4. Abra **Settings → Pages**.
+5. Em **Source**, escolha **Deploy from a branch**.
+6. Selecione a branch **main**, a pasta **/(root)** e clique em **Save**.
+7. Aguarde alguns minutos e atualize o endereço do site com `Ctrl + F5`.
 
-## Testar no computador (opcional)
+## Arquivos principais
 
-É necessário ter o Node.js instalado. Dentro da pasta do projeto, execute:
+- `index.html`: página que o GitHub Pages abre;
+- `assets/`: arquivos prontos de aparência e funcionamento;
+- `app/page.tsx`: conteúdo e interações em código-fonte;
+- `app/globals.css`: estilos separados;
+- `main.tsx`: inicialização do projeto;
+- `dist/`: cópia da versão final gerada.
 
-```bash
-npm install
-npm run dev
-```
-
-## Estrutura principal
-
-- `index.html`: entrada reconhecida pelo navegador e pelo GitHub Pages;
-- `main.tsx`: inicia a aplicação;
-- `app/page.tsx`: conteúdo e interações;
-- `app/globals.css`: aparência e responsividade;
-- `.github/workflows/deploy.yml`: publicação automática;
-- `dist/`: versão estática criada pelo comando `npm run build`.
+O código-fonte permanece separado para avaliação escolar.
