@@ -219,8 +219,6 @@ export default function Home() {
                 onClick={() => toggleCard(index)}
                 aria-pressed={isFlipped}
                 aria-label={`${card.tag}: ${card.title}. ${isFlipped ? "Mostrar frente" : "Mostrar resposta"}`}
-                data-reveal
-                style={{ transitionDelay: `${(index % 3) * 75}ms` }}
               >
                 <span
                   className={`flashcard-face flashcard-single ${isFlipped ? "is-answer" : "is-question"}`}
